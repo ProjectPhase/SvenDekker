@@ -26,9 +26,9 @@ url                      : https://projectphase.github.io # the base hostname & 
 baseurl                  : #/SvenDekker # the subpath of your site, e.g. "/blog"
 repository               : ProjectPhase/SvenDekker # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : /assets/Images/Ratrig-enclosure-nb.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : /assets/Images/Blob_no_outline_background_white_v2.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-breadcrumbs            : true # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
@@ -107,7 +107,7 @@ analytics:
 author:
   name             : "Sven Dekker"
   avatar           : /assets/Images/Avatar.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Mechanical engineering student at HvA"
   location         : "Amsterdam"
   email            : sven-dekker@hva.nl
   links:
@@ -157,6 +157,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - _posts
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -292,13 +293,10 @@ defaults:
       comments: # true
       share: true
       related: true
-
-include: ["_pages"]
-defaults:
   # _pages
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
       layout: single
-      author_profile: tru
+      author_profile: true
