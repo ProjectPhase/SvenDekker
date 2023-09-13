@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Documentation"
-    url: /documentation/
+    url: /categories/
   - title: "About me"
     url: /about_me/
   # - title: "Sample Posts"
