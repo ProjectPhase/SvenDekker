@@ -11,37 +11,38 @@ author_profile: false
 
 #intro: 
 #  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
-#feature_row2:
-#  - image_path: /assets/Images/Avatar.jpg
-#    alt: "placeholder image 2"
-#    title: "Placeholder Image Left Aligned"
-#    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-#    url: "#test-link"
-#    btn_label: "Read More"
-#    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/Images/Avatar.jpg
+feature_row2:
+  - image_path: /assets/Images/Blob-v3-removebg.png
     alt: "placeholder image 2"
-    title: "Week 1: Setting up the static website"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right ligned with `type="right"`'
-    url: /multi-material/plan-of-approach/
+    title: "Introduction to  Cricut Maker 3"
+    excerpt: 'This article will take you through step by step through the process off using the Cricut maker 3 and my experience'
+    url: /documentation/cricut/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+feature_row3:
+  - image_path: /assets/Images/Lasercutter-removebg.png
+    alt: "placeholder image 2"
+    title: "Introduction to a lasercutter"
+    excerpt: 'This article wil take you through the steps and safety measures on how to use the BRM Laser Machine'
+    url: /documentation/lasercutter/
     btn_label: "Read More"
     btn_class: "btn--primary"
 feature_row4:
   - image_path: /assets/Images/Website_building.jpeg
-    alt: "Setting up the static website"
-    title: "Setting up the static website" #Week 1
+    alt: "Setting up a static website"
+    title: "Setting up a static website" #Week 1
     excerpt: 'This article will take you step by step through the process of building your own static website.'
-    url: /documentation/week_1/
+    url: /documentation/setting-up-a-static-website/
     btn_label: "Read More"
     btn_class: "btn--primary"
 
 #{% include feature_row id="feature_row2" type="left" %}
 
-#{% include feature_row id="feature_row3" type="right" %}   
+   
 ---
 
+{% include feature_row id="feature_row2" width="50%" type="left" %}
 
-{% include feature_row id="feature_row3" type="left" %}
+{% include feature_row id="feature_row3" type="right" %}
 
 {% include feature_row id="feature_row4" type="left" %}

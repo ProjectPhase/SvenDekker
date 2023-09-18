@@ -1,6 +1,6 @@
 ---
-title:  "Setting up the static website" #Week 1
-permalink: /documentation/week_1/
+title:  "Setting up a static website" #Week 1
+permalink: /documentation/setting-up-a-static-website/
 last_modified_at: 13-9-2023
 toc: true
 toc_label: "Step by Step"
