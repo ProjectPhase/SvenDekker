@@ -1,7 +1,7 @@
 ---
 
 layout: collection
-permalink: /categories/
+permalink: /documentation/
 title: "Documentation"
 excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 last_modified_at: 2023-08-09T11:59:26-04:00
@@ -19,18 +19,18 @@ author_profile: false
 #    url: "#test-link"
 #    btn_label: "Read More"
 #    btn_class: "btn--primary"
-#feature_row3:
-#  - image_path: /assets/Images/Avatar.jpg
-#    alt: "placeholder image 2"
-#    title: "Week 1: Setting up the static website"
-#    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-#    url: "#test-link"
-#    btn_label: "Read More"
-#    btn_class: "btn--primary"
+feature_row3:
+  - image_path: /assets/Images/Avatar.jpg
+    alt: "placeholder image 2"
+    title: "Week 1: Setting up the static website"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right ligned with `type="right"`'
+    url: /multi-material/plan-of-approach/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 feature_row4:
   - image_path: /assets/Images/Website_building.jpeg
     alt: "Setting up the static website"
-    title: "Week 1: Setting up the static website"
+    title: "Setting up the static website" #Week 1
     excerpt: 'This article will take you step by step through the process of building your own static website.'
     url: /documentation/week_1/
     btn_label: "Read More"
@@ -42,6 +42,6 @@ feature_row4:
 ---
 
 
-
+{% include feature_row id="feature_row3" type="left" %}
 
 {% include feature_row id="feature_row4" type="left" %}

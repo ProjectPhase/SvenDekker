@@ -1,7 +1,11 @@
 ---
-title:  "Week 1: Setting up the static website"
+title:  "Setting up the static website" #Week 1
 permalink: /documentation/week_1/
 last_modified_at: 13-9-2023
+toc: true
+toc_label: "Step by Step"
+toc_icon: "stream"
+read_time: false
 ---
 
 This article will take you step by step through the process of building your own static website. 
@@ -116,5 +120,5 @@ Install Extensions
   * Choose the option to "Show Local" and locate your local GitHub repository
   * Open the local repository folder
 
----
+### Final advice
 When working with a new theme and navigating its files and folders, like `navigation.yml`, `_config.yml`, `_layouts`, `_pages`, and `_posts`, it's common to feel a bit lost. My advice is to start by reading the documentation thoroughly to understand the theme's concept. Additionally, you can benefit from exploring the theme's demo site. This allows you to identify elements you'd like to replicate and examine the code in the GitHub repository. These steps can significantly ease your understanding and usage of the theme.

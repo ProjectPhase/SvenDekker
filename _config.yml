@@ -29,7 +29,7 @@ teaser                   : /assets/Images/Ratrig-enclosure-nb.png # path of fall
 logo                     : /assets/Images/Blob_no_outline_background_white_v2.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 120
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
   disqus:
@@ -158,7 +158,9 @@ include:
   - .htaccess
   - _pages
   - _posts
+  - _projects
 exclude:
+  - _site
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
@@ -212,6 +214,13 @@ kramdown:
   enable_coderay: false
 
 
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -253,12 +262,12 @@ whitelist:
 #  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
-category_archive:
+documentation_archive:
   type: liquid
-  path: /categories/
+  path: /documentation/
 tag_archive:
   type: liquid
-  path: /tags/
+  path: /multi-material 3d printing/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
 #   enabled:
@@ -300,3 +309,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _projetcs
+  - scope:
+      path: "_projects"
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
