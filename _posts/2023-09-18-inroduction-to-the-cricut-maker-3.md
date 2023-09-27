@@ -21,7 +21,7 @@ I used it to cut my own stickers, and here is the step-by-step guide:
 
 ## Step 2: Design or download image
 <figure style="width: 250px" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/Images/Blob-sketch.png" alt="">
+  <img src="/assets/Images/Blob-sketch.png" alt="">
   <figcaption>Introducing Blob</figcaption>
 </figure>
 <br/><br/>
@@ -49,7 +49,7 @@ I used it to cut my own stickers, and here is the step-by-step guide:
 - If your file contains multiple objects, you can select the object and choose one of these interactions: Weld, Unite, Subtract, Intersect or Exclude
 
 <figure class="align-center">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/Images/Blob-cdp.png" alt="">
+  <img src="/assets/Images/Blob-cdp.png" alt="">
   <figcaption>Blob in the Cricut Design Space</figcaption>
 </figure> 
 
@@ -61,7 +61,7 @@ I used it to cut my own stickers, and here is the step-by-step guide:
 ## Final Result
 
 <figure style="width: 250px" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/Images/Blob-final-result.jpg" alt="">
+  <img src="/assets/Images/Blob-final-result.jpg" alt="">
   <figcaption>Blob in final form</figcaption>
 </figure> 
 <br/><br/>
