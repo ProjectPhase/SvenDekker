@@ -95,7 +95,7 @@ Dual hotends are available in various configurations. Some models feature two pr
 **Disadvantages of the "Dual Switching Hotend" `Figure 3`:**
 
 <figure style="width: 300px" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/Images/Plan of Approach/Dual Switching Hotend.png" alt="">
+  <img src="/assets/Images/Dual Switching Hotend.png" alt="">
   <figcaption>Figure 3</figcaption>
 </figure> 
 
@@ -104,7 +104,7 @@ Dual hotends are available in various configurations. Some models feature two pr
 **Disadvantages of the "Dual Nozzle Hotend" `Figure 4`:**
 
 <figure style="width: 300px" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/Images/Plan of Approach/Dual Hotend Nozzle.png" alt="">
+  <img src="/assets/Images/Dual Hotend Nozzle.png" alt="">
   <figcaption>Figure 4</figcaption>
 </figure> 
 
@@ -113,7 +113,7 @@ Dual hotends are available in various configurations. Some models feature two pr
 #### 2.1.4 IDEX (Independent Dual Extruder) 3D printing
 
 <figure style="width: 300px" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/Images/Plan of Approach/IDEX.png" alt="">
+  <img src="/assets/Images/IDEX.png" alt="">
   <figcaption>Figure 5</figcaption>
 </figure> 
 
@@ -125,7 +125,7 @@ IDEX is a type of 3D printer that features two independent print heads, and thes
 #### 2.1.5 Toolchanger
 
 <figure style="width: 300px" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/Images/Plan of Approach/Toolchanger.jpg" alt="">
+  <img src="/assets/Images/Toolchanger.jpg" alt="">
   <figcaption>Figure 6</figcaption>
 </figure> 
 
@@ -140,7 +140,7 @@ A toolchanger is a component or system used in advanced 3D printers to automatic
 #### 2.1.6 Cnc nozzle changing
 
 <figure style="width: 300px" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/Images/Plan of Approach/Nozzle changing.png" alt="">
+  <img src="/assets/Images/Nozzle changing.png" alt="">
   <figcaption>Figure 7</figcaption>
 </figure> 
 
@@ -149,7 +149,7 @@ The Swapper3D by BigBrain3D is the only one on the market that performs a nozzle
 **Disadvantages:**
 
 <figure style="width: 300px" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/Images/Plan of Approach/Swapper.jpg" alt="">
+  <img src="/assets/Images/Swapper.jpg" alt="">
   <figcaption>Figure 8</figcaption>
 </figure> 
 
