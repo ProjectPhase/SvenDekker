@@ -60,8 +60,8 @@ To clarify the problem statement, an explanation of what is already available on
 
 #### 2.1.1 MMU (multi-material unit)
 
-<figure class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/Images/MMU.png" alt="">
+<figure style="width: 300px" class="align-right">
+  <img src="/assets/Images/MMU.png" alt="">
   <figcaption>Figure 1</figcaption>
 </figure> 
 
