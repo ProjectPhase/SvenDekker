@@ -78,7 +78,7 @@ It is an addition to single-extruder printers to enable printing with multiple m
 #### 2.1.2 Filament splicing
 
 <figure style="width: 300px" class="align-right">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/Images/Plan of Approach/Filament splicing.png" alt="">
+  <img src="/assets/Images/Plan of Approach/Filament splicing.png" alt="">
   <figcaption>Figure 2</figcaption>
 </figure> 
 
