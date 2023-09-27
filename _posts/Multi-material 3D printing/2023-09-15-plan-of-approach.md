@@ -16,6 +16,10 @@ gallery:
      image_path: /assets/Images/Plan of Approach/Voron.png
      alt: "Voron 2"
 
+gallery2:
+    - url: /assets/Images/Plan of Approach/Ratrig.jpg
+      image_path: /assets/Images/Plan of Approach/Ratrig.jpg
+
 ---
 
 ## 1. Introduction
