@@ -7,18 +7,19 @@ read_time: true
 toc: true
 toc_label: "Table of contents"
 toc_icon: "stream"
+toc_sticky: "false"
+classes: wide
+
+
+
 
 gallery:
    - url: /assets/Images/Plan of Approach/Ratrig.jpg
-     image_path: /assets/Images/Plan of Approach/Ratrig.jpg
+     image_path: /assets/Images/Ratrig.jpg
      alt: "Ratrig"
    - url: /assets/Images/Plan of Approach/Voron.png
-     image_path: /assets/Images/Plan of Approach/Voron.png
+     image_path: /assets/Images/Voron.png
      alt: "Voron 2"
-
-gallery2:
-    - url: /assets/Images/Plan of Approach/Ratrig.jpg
-      image_path: /assets/Images/Plan of Approach/Ratrig.jpg
 
 ---
 
