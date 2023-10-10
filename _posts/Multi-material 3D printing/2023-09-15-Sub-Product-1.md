@@ -1,5 +1,5 @@
 ---
-title:  "Sub-Product 1" 
+title:  "Sub-Product 1: Research and Requirements Specification" 
 permalink: /multi-material 3d printing/sub-product 1/
 layout: single
 last_modified_at: 18-9-2023

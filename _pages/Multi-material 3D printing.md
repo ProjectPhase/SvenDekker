@@ -23,8 +23,8 @@ author_profile: false
 feature_row2:
   - image_path: /assets/Images/Research.jpeg
     alt: "research"
-    title: "Sub-Product 1"
-    excerpt: 'In sub-product 1, an analysis will be conducted to address the research questions outlined in Plan of Approach, Chapter 2'
+    title: "Sub-Product 1: Research and Requirements Specification"
+    excerpt: 'In sub-product 1: Research and Requirements Specification, an analysis will be conducted to address the research questions outlined in Plan of Approach, Chapter 2'
     url: /multi-material 3d printing/sub-product 1/
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -44,6 +44,7 @@ feature_row:
 
 For these reasons, there are already several solutions on the market. Each of these solutions has its pros and cons, but in many products, the disadvantages outweigh the advantages. That's why the plan is to design a product in which the benefits outweigh the drawbacks.
 
+---
 
 {% include feature_row id="feature_row" type="left" %}
 
