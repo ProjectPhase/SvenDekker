@@ -11,6 +11,14 @@ author_profile: false
 
 #intro: 
 #  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+feature_row1:
+  - image_path: /assets/Images/ShopBot/CNC.png
+    alt: "placeholder image 2"
+    title: "Introduction to ShopBot"
+    excerpt: 'This article will guide you through the design of my parametric box and step by step through the process of using the ShopBot'
+    url: /documentation/shopbot/
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/Images/Blob-v3-removebg.png
     alt: "placeholder image 2"
@@ -40,6 +48,8 @@ feature_row4:
 
    
 ---
+
+{% include feature_row id="feature_row1" width="100px" type="right" %}
 
 {% include feature_row id="feature_row2" width="50%" type="left" %}
 
