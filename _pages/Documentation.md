@@ -27,14 +27,14 @@ feature_row2:
     url: /documentation/cricut/
     btn_label: "Read More"
     btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/Images/Lasercutter-removebg.png
-    alt: "placeholder image 2"
-    title: "Introduction to a lasercutter"
-    excerpt: 'This article wil take you through the steps and safety measures on how to use the BRM Laser Machine'
-    url: /documentation/lasercutter/
-    btn_label: "Read More"
-    btn_class: "btn--primary"
+#feature_row3:
+#  - image_path: /assets/Images/Lasercutter-removebg.png
+#    alt: "placeholder image 2"
+#    title: "Introduction to a lasercutter"
+#    excerpt: 'This article wil take you through the steps and safety measures on how to use the BRM Laser Machine'
+#    url: /documentation/lasercutter/
+#    btn_label: "Read More"
+#    btn_class: "btn--primary"
 feature_row4:
   - image_path: /assets/Images/Website_building.jpeg
     alt: "Setting up a static website"
@@ -44,7 +44,7 @@ feature_row4:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-#{% include feature_row id="feature_row2" type="left" %}
+#{% include feature_row id="feature_row3" type="right" %}
 
    
 ---
@@ -52,7 +52,5 @@ feature_row4:
 {% include feature_row id="feature_row1" width="100px" type="right" %}
 
 {% include feature_row id="feature_row2" width="50%" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
 
 {% include feature_row id="feature_row4" type="left" %}
