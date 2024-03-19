@@ -3,17 +3,16 @@ title: "Custom load-bearing slip ring"
 excerpt: "Custom load-bearing slip ring to mount UV nail lamp on a articulating arm"
 toc: true
 toc_sticky: true
+classes: wide
 header:
-  video:
-    id: RjCyNpwfA4M
-    provider: youtube
-
+  image: /assets/Images/Custom_Loadbearing_slip_ring/Slew_Bearing_v2.png
+  teaser: assets/Images/Custom_Loadbearing_slip_ring/Slew_Bearing_v2.png
 ---
 <figure style="width: 200px" class="align-right">
   <img src="/assets/Images/Custom_Loadbearing_slip_ring/clearoff.jpeg" alt="">
   <figcaption>Figure 1</figcaption>
 </figure> 
-
+<br />
 My mother is a pedicurist and from her pedicure practice, she has requested an engineering task. It involves a UV lamp that needs to hang from an articulating arm to be multipurpose, serving both hands and feet. In the past, I attempted to solve this without a slip ring, which turned out to be very dangerous as the wire was twisted and posed a fire hazard, depicted in `Figure 1`.
 
 
@@ -84,7 +83,9 @@ Now that my essential components were specified, I could begin the design proces
 </p>
 
 ## Result
-The outcome is visible in the video located in the header.
+The end result is visable in the video below.
+
+{% include video id="RjCyNpwfA4M" provider="youtube" %}
 
 ## Conclusion
 With the excellent design by thegoofy, designing the Custom Load-Bearing slip ring was manageable. The result looks professional, and compared to the previous solution, there can be no user error by turning the UV lamp in the same direction too often.
