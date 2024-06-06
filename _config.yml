@@ -19,7 +19,7 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "Sven Dekker"
 title_separator          : " "
-subtitle                 : Internship at Fablab # site tagline that appears below site title in masthead
+subtitle                 : Minor at Robotlab # site tagline that appears below site title in masthead
 name                     : "Sven Dekker"
 description              : "An amazing website."
 url                      : https://projectphase.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
