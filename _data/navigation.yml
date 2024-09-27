@@ -2,8 +2,8 @@
 main:
   - title: "Multi-material 3D printing"
     url: /multi-material 3d printing/
-  - title: "Documentation"
-    url: /documentation/
+#  - title: "Documentation"
+#    url: /documentation/
   - title: "Projects"
     url: /projects/
   - title: "About me"
