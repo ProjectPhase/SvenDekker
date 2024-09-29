@@ -7,6 +7,27 @@ classes: wide
 header:
   image: /assets/Images/Custom_Loadbearing_slip_ring/Slew_Bearing_v2.png
   teaser: assets/Images/Custom_Loadbearing_slip_ring/Slew_Bearing_v2.png
+
+gallery:
+  - url: /assets/Images/Tool_Holder/Tool Holder v2.png
+    image_path: /assets/Images/Tool_Holder/Tool Holder v2.png
+    alt: "placeholder image 1"
+    title: "Image 1 title caption"
+  - url: /assets/Images/Tool_Holder/Tool Holder v2 CS.png
+    image_path: /assets/Images/Tool_Holder/Tool Holder v2 CS.png
+    alt: "placeholder image 2"
+    title: "Image 2 title caption"
+
+gallery2:
+  - url: /assets/Images/Tool_Holder/Tool Holder v2 Side CS.png
+    image_path: /assets/Images/Tool_Holder/Tool Holder v2 Side CS.png
+    alt: "placeholder image 3"
+    title: "Image 3 title caption"
+  - url: /assets/Images/Tool_Holder/Tool Holder v2 Side.png
+    image_path: /assets/Images/Tool_Holder/Tool Holder v2 Side.png
+    alt: "placeholder image 4"
+    title: "Image 4 title caption"
+
 ---
 
 ## Introduction
@@ -47,7 +68,7 @@ The holder should support two types of motion—swinging/rotating along the y-ax
 
 Several iterations have been made, with the final iteration visible in `Figure 1`. This iteration closely followed the design criteria.
 
-**Issues Encountered**
+### Issues Encountered
 
 1. **Sturdiness:**<br>
 The design lacks sturdiness, as indicated by the orange arrow in `Figure 1`. All weight and pressure from the tool are concentrated on the servo motor axis, leading to stability issues.
@@ -61,7 +82,7 @@ The use of store-bought bearings is a limiting factor due to their expense and l
 4. **Self-Centering Mechanism:**<br>
 The centering is achieved by clamping with sponges, but this method lacks precision, as demonstrated in `Video 1`.
 
-**Potential**
+### Potential 
 
 Despite these issues, the design shows promise. The technical concept appears to work, as demonstrated in `Figure 1`. Further development and refinement are needed, preferably with the assistance of someone skilled in technical drawing.
 
@@ -82,7 +103,23 @@ After identifying the issues in the previous iterations, I immediately recalled 
 2. **Mounting Points**: Custom bearings can be designed with mounting points for the revolving part.
 3. **Customizable Dimensions**: With 3D printing, bearings of any dimension can be created.
 
+<p float="centre">
+  <img src="/assets/Images/Custom_Loadbearing_slip_ring/Slew_Bearing.jpg" width="470" title="Figure 4"/>
+  <img src="/assets/Images/Tool_Holder/Collet System v2.png" width="265"  title="Figure 5"/> 
+</p>
+
 For the fourth issue (self-centering mechanism), I conducted secondary research and found a 3D-printable collet clamping system from `dodasch` on [Printables](https://www.printables.com/model/109942-kraftform-tool-holder-collet-clamping-system). By printing collets of various diameters, a wide range of tools can be accommodated.
+
+## Final Design
+
+With a comprehensive understanding of the project, I envisioned a clear path for improvement. Thanks to the solid foundation laid by the previous iterations, my final design encountered only a single issue, making the overall development process really streamlined.
+
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+
+{% include gallery id="gallery2" caption="This is a second gallery example with images hosted externally." %}
+
+
+
 
 
 

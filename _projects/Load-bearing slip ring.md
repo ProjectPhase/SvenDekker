@@ -45,7 +45,7 @@ Now that my essential components were specified, I could begin the design proces
 
 <p float="centre">
   <img src="/assets/Images/Custom_Loadbearing_slip_ring/Slew_Bearing.jpg" width="470" title="Figure 4"/>
-  <img src="/assets/Images/Custom_Loadbearing_slip_ring/Slew_Bearing_Spacers.jpg" width="350" align="right" title="Figure 5"/> 
+  <img src="/assets/Images/Custom_Loadbearing_slip_ring/Slew_Bearing_Spacers.jpg" width="350" title="Figure 5"/> 
 </p>
  
  - Modify the parameters of the slew bearing to ensure that its holes align with those of the reference slip ring in the design workspace
