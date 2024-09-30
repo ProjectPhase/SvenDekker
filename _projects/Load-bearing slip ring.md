@@ -5,8 +5,8 @@ toc: true
 toc_sticky: true
 classes: wide
 header:
-  image: /assets/Images/Custom_Loadbearing_slip_ring/Slew_Bearing_v2.png
-  teaser: assets/Images/Custom_Loadbearing_slip_ring/Slew_Bearing_v2.png
+  image: /assets/Images/Custom_Loadbearing_slip_ring/Color_Bearing.png
+  teaser: assets/Images/Custom_Loadbearing_slip_ring/Color_Bearing.png
 ---
 <figure style="width: 200px" class="align-right">
   <img src="/assets/Images/Custom_Loadbearing_slip_ring/clearoff.jpeg" alt="">
