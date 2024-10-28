@@ -9,9 +9,9 @@ header:
   teaser: assets/Images/Custom_Loadbearing_slip_ring/Slew_Bearing_v2.png
 
 
-pres_local: "/assets/Powerpoint/Final_Minor_Portfolio_Sven_Dekker_Copy1.pptx"
+pres_local: "assets/Powerpoint/Final_Minor_Portfolio_Sven_Dekker_v2.pptx"
 
 
 ---
 
-{% pdf "/assets/Powerpoint/Final_Minor_Portfolio_Sven_Dekker_Copy1.pptx" %}
+{% pdf {{ page.pres_local }} %}
