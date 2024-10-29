@@ -9,7 +9,7 @@ header:
   teaser: assets/Images/Custom_Loadbearing_slip_ring/Slew_Bearing_v2.png
 
 
-pres_local: "assets/Powerpoint/StagePoster FabLab SvenDekker.pptx"
+pres_local: "assets/Powerpoint/StagePoster_FabLab_SvenDekker.pptx"
 
 
 ---
