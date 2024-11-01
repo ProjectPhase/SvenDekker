@@ -1,8 +1,10 @@
 ---
 title: "Load-bearing slip ring"
 excerpt: "Custom load-bearing slip ring to mount UV nail lamp on a articulating arm"
+date: 17-1-2024
 toc: true
 toc_sticky: true
+breadcrumbs: true  # disabled by default
 classes: wide
 header:
   image: /assets/Images/Custom_Loadbearing_slip_ring/Color_Bearing.png

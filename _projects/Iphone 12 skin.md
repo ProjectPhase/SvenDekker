@@ -1,8 +1,10 @@
 ---
 title: "iPhone 12 skin"
 excerpt: "Custom vinyl skin for the back of my iPhone 12"
+date: 20-6-2024
 toc: true
 toc_sticky: true
+breadcrumbs: true  # disabled by default
 classes: wide
 header:
   image: /assets/Images/iPhone_12_skin/IMG_6092.jpg

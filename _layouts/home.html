@@ -4,19 +4,38 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_projects | default: "Recent Projects" }}</h3>
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    {% include archive-single.html type=entries_layout %}
+  {% assign projects = site.projects | sort: "date" | reverse %}
+  {% for project in projects %}
+    <div class="archive-entry project-entry">
+      
+      <div class="project-content">
+        <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+        <p>{{ project.excerpt }}</p>
+
+        <!-- Display Date -->
+        {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
+        <p class="project__date">
+          <strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 
+            {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}
+          </strong> 
+          <time datetime="{{ project.date | date: "%Y-%m-%d" }}">
+            {{ project.date | date: date_format }}
+          </time>
+        </p>
+      </div>
+      
+      <!-- Display the project header image if it exists -->
+      {% if project.header.image %}
+        <img src="{{ project.header.image }}" alt="{{ project.title }} header image" class="project-header-image">
+      {% endif %}
+      
+    </div>
+    <hr class="project-divider">
   {% endfor %}
 </div>
 
-{% include paginator.html %}
+

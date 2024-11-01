@@ -1,12 +1,14 @@
 ---
 title: "Tool holder v2"
 excerpt: "Process of developing a 'Tool holder' for composite motion"
+date: 30-9-2024
 toc: true
 toc_sticky: true
-classes: wide
+breadcrumbs: true  # disabled by default
+#classes: wide
 header:
   image: /assets/Images/Tool_Holder/Final Result/Page Header Image.png
-  teaser: assets/Images/Tool_Holder/Final Result/Page Header Image.png
+  teaser: /assets/Images/Tool_Holder/Final Result/Page Header Image.png
 
 gallery:
   - url: /assets/Images/Tool_Holder/Tool Holder v2.png
