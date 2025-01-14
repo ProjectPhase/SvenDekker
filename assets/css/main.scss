@@ -8,12 +8,16 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.project-entry {
+@media screen and (min-width: 600px) {
+  .project-entry {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 2rem;
   }
+}
+
+
   
   .project-content {
     flex: 1;  /* Take up available space on the left */
@@ -22,7 +26,7 @@ search: false
   .project-header-image {
     width: 300px;          /* Adjust width as needed */
     height: auto;          /* Maintain aspect ratio */
-    margin-left: 1rem;     /* Space between text and image */
+    margin-left: 0rem;     /* Space between text and image */
     border-radius: 5px;
     order: 2;              /* Ensures image appears on the right */
   }
